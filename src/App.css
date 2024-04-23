@@ -1,0 +1,79 @@
+.padre{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.tamanio-imagen{
+    width: 100%;
+    height: 800px; 
+}
+
+.estilo-profile{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cajatexto{
+    background-color: #cccccc40;
+    border-color: slategray;
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px;
+    border-width: 0px;
+    margin-bottom: 20px;
+}
+
+.card{
+    border-radius: 7%;
+    border-color: cornflowerblue;
+    border-width: 3px; 
+}
+
+.cajatexto:focus{
+    outline: 1px solid cornflowerblue;
+    box-shadow: 0 0 20px cornflowerblue;
+}
+
+.btnform{
+    background-color: #0D6EFD;
+    border-color: slategray;
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px;
+    border-width: 0px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.btnform:hover{
+    box-shadow: 0 0 20px cornflowerblue;
+    background-color: blue;
+}
+.texto{
+    font-size: 20px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+.btnswitch{
+ background-color: darkblue;
+ border-radius: 10px;
+ padding: 8px;
+ border-width: 0px;
+ color: lightgray;
+ font-size: 16px;
+margin-left: 40px;
+padding: 10px;
+}
+
+.btnswitch:hover{
+    color: white;
+}
